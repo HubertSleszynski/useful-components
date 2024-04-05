@@ -57,7 +57,15 @@ const Search = () => {
   console.log(users, filteredUsers);
 
   return (
-    <div className="search-autocomplete-container">
+    <div
+      className="search-autocomplete-container"
+      style={{
+        display: "flex",
+        justifyContent: "center",
+        flexDirection: "column",
+      }}
+    >
+      <h1>Search Autocompletion</h1>
       {loading ? (
         <h1>Loading Data ! Please wait</h1>
       ) : (

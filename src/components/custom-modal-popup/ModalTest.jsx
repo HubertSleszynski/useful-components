@@ -15,7 +15,14 @@ const ModalTest = () => {
   }
 
   return (
-    <div>
+    <div
+      style={{
+        display: "flex",
+        justifyContent: "center",
+        flexDirection: "column",
+      }}
+    >
+      <h1>Modal popup</h1>
       <button onClick={handleToggleModalPopup}>Open Modal Popup</button>
       {showModalPopup && (
         <Modal

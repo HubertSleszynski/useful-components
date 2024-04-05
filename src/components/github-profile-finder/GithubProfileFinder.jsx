@@ -35,6 +35,7 @@ const GithubProfileFinder = () => {
 
   return (
     <div className="github-profile-container">
+      <h1>Github Profile Finder</h1>
       <div className="input-wrapper">
         <input
           name="search-by-username"

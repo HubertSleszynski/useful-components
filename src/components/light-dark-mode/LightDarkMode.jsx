@@ -10,12 +10,15 @@ const LightDarkMode = () => {
   }
 
   return (
-    <div className="light-dark-mode" data-theme={theme}>
-      <div className="container">
-        <p>Hello</p>
-        <button onClick={handleToggleTheme}>Change Theme</button>
+    <>
+      <h1>Theme Switcher</h1>
+      <div className="light-dark-mode" data-theme={theme}>
+        <div className="container">
+          <p>Hello</p>
+          <button onClick={handleToggleTheme}>Change Theme</button>
+        </div>
       </div>
-    </div>
+    </>
   );
 };
 

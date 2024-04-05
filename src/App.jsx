@@ -17,11 +17,13 @@ import TicTacToe from "./components/tic-tac-toe/TicTacToe";
 import UseFetchTest from "./components/use-fetch/UseFetchTest";
 import UseOutsideClickTest from "./components/use-outside-click/UseOutsideClickTest";
 import UseWindowResizeTest from "./components/use-window-resize/UseWindowResizeTest";
+import ScrollToTopAndBottom from "./components/scroll-to-top-and-bottom/ScrollToTopAndBottom";
+import ScrollToSection from "./components/scroll-to-top-and-bottom/ScrollToSection";
 
 function App() {
   return (
     <>
-      {/* <Accordian />
+      <Accordian />
       <RandomColor />
       <StarRating noOfStars={10} />
       <ImageSlider
@@ -31,17 +33,19 @@ function App() {
       />
       <LoadMoreData />
       <TreeView menus={menus} />
-      <QrCodeGenerator /> */}
-      {/* <LightDarkMode /> */}
-      {/* <ScrollIndicator url={"https://dummyjson.com/products?limit=100"} /> */}
-      {/* <TabTest /> */}
-      {/* <ModalTest /> */}
-      {/* <GithubProfileFinder /> */}
-      {/* <Search /> */}
-      {/* <TicTacToe /> */}
-      {/* <UseFetchTest /> */}
-      {/* <UseOutsideClickTest /> */}
-      {/* <UseWindowResizeTest /> */}
+      <QrCodeGenerator />
+      <LightDarkMode />
+      <ScrollIndicator url={"https://dummyjson.com/products?limit=100"} />
+      <TabTest />
+      <ModalTest />
+      <GithubProfileFinder />
+      <Search />
+      <TicTacToe />
+      <UseFetchTest />
+      <UseOutsideClickTest />
+      <UseWindowResizeTest />
+      <ScrollToTopAndBottom />
+      <ScrollToSection />
     </>
   );
 }

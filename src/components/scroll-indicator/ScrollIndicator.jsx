@@ -63,6 +63,7 @@ const ScrollIndicator = ({ url }) => {
 
   return (
     <div>
+      <h1>Scroll Indicator</h1>
       <div className="top-container">
         <h1>Custom Scroll Indicator</h1>
         <div className="scroll-progress-tracking-container">
