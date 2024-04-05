@@ -32,6 +32,10 @@
   padding: 15px;
   border-radius: 10px;
   border: 1px solid;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .avatar {

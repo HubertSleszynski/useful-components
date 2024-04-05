@@ -12,6 +12,11 @@ import ScrollIndicator from "./components/scroll-indicator/ScrollIndicator";
 import TabTest from "./components/tabs/TabTest";
 import ModalTest from "./components/custom-modal-popup/ModalTest";
 import GithubProfileFinder from "./components/github-profile-finder/GithubProfileFinder";
+import Search from "./components/search-autocomplete-with-api/Search";
+import TicTacToe from "./components/tic-tac-toe/TicTacToe";
+import UseFetchTest from "./components/use-fetch/UseFetchTest";
+import UseOutsideClickTest from "./components/use-outside-click/UseOutsideClickTest";
+import UseWindowResizeTest from "./components/use-window-resize/UseWindowResizeTest";
 
 function App() {
   return (
@@ -31,7 +36,12 @@ function App() {
       {/* <ScrollIndicator url={"https://dummyjson.com/products?limit=100"} /> */}
       {/* <TabTest /> */}
       {/* <ModalTest /> */}
-      <GithubProfileFinder />
+      {/* <GithubProfileFinder /> */}
+      {/* <Search /> */}
+      {/* <TicTacToe /> */}
+      {/* <UseFetchTest /> */}
+      {/* <UseOutsideClickTest /> */}
+      {/* <UseWindowResizeTest /> */}
     </>
   );
 }
