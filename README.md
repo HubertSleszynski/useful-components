@@ -1,6 +1,6 @@
-# template
+# USEFUL COMPONENTS
 
-description
+This project contains some of the useful react components without using any libraries. It helped me to practise some of the key react concepts.
 
 ## Demo
 
